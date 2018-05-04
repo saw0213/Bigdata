@@ -1,0 +1,11 @@
+#coding: cp949
+
+c_apple_num = input("Ã¶¼ö´Â »ç°ú¸¦ ¸î °³ ¸Ô¾ú´Ï?")
+c_sick_day = input("Ã¶¼ö´Â ¾ó¸¶³ª ¾ÆÆÍ´Ï?")
+
+y_apple_num = input("¿µÈñ´Â »ç°ú¸¦ ¸î °³ ¸Ô¾ú´Ï?")
+y_sick_day = input("¿µÈñ´Â ¾ó¸¶³ª ¾ÆÆÍ´Ï?")
+
+print("\n°á°úºÐ¼®")
+print("Ã¶¼ö°¡ ¸ÔÀº »ç°ú °¹¼ö : {0:>5}°³, ÀÔ¿ø ÀÏ¼ö {1:>4}".format(c_apple_num, c_sick_day))
+print("¿µÈñ°¡ ¸ÔÀº »ç°ú °¹¼ö : {0:>5}°³, ÀÔ¿ø ÀÏ¼ö {1:>4}".format(y_apple_num, y_sick_day))
